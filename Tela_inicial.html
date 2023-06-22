@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="manual-enem.ico (1).ico" type="image/x-icon">
+    <script>
+        alert("Nosso site está em construção");
+    </script>
+
+    <title>ProjetoENEM</title>
+</head>
+
+<body>
+    <header>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+
+            }
+
+            main.cards {
+                display: flex;
+                padding: 32px;
+
+            }
+
+            main.cards section.cards .icon {
+                width: 64px;
+                height: 64px;
+            }
+
+            main.cards section.cards img {
+                width: 100%;
+            }
+
+            html {
+                height: 500vh;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #01031b;
+
+
+
+            }
+
+            header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #01031b;
+                padding: 20px;
+                width: 100%;
+                height: min-content;
+            }
+
+            nav {
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .logo {
+                width: 20%;
+                cursor: pointer;
+                float: left;
+                margin: left 0;
+                justify-content: left;
+                
+            }
+
+            .menu {
+                width: 25%;
+            }
+
+            .menu nav a {
+                color: aliceblue;
+                text-decoration: none;
+                padding-right: 30px;
+                font-size: 18px;
+                width: 200px;
+                display: flex;
+
+                position: relative;
+            }
+
+            .menu nav a::after {
+                content: " ";
+                width: 0px;
+                height: 4px;
+                background-image: linear-gradient(45deg, #FF2500, #FF7100);
+                position: absolute;
+                top: 30px;
+                left: 0;
+                transition;
+                width: 0.5s;
+            }
+
+            .menu nav a:hover::after {
+                width: 30px;
+            }
+
+
+            .pesquisar input.coluna1 {
+                float: right;
+                display: inline;
+                width: 35%;
+                padding-left: 50px;
+                align: right
+            }
+
+            .pesquisar button.coluna2 {
+                cursor: pointer;
+                width: 75px;
+                display: inline;
+                float: right;
+            }
+
+            body {
+                background-color: rgb(225, 225, 225);
+                font-family: AprovaSansBlack, sans-serif;
+                text-align: center;
+            }
+
+            .box{
+                width: 100%;
+                height: 60px;
+                align-items: center;
+                margin: 0;
+                background-color: rgb(0, 255, 115);
+            }
+
+            .border-radius{
+                border-radius: 50px;
+            }
+            .border-box{
+                background-color: rgb(216, 112, 164);
+                border-radius:50px ;
+            }
+        </style>
+
+        <div class="container">
+            <div class="logo"><img src="manual enem.ico.png" height="50%" width="50%"> </div>
+            <div class="menu">
+                <nav>
+                    <a href='Tela_inicial.html'>Home</a>
+                    <a href='Planos.html'>Planos</a>
+                    <a href='Quem Somos.html'>Quem.somos</a>
+                </nav>
+
+            </div>
+            <div class="pesquisar">
+                <form>
+                    <input placeholder='Pesquisar' />
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <body>
+        <img src="enem 1024x465.jpg" height="465" width="100%">
+        <div class="box border-radius">
+        <h1 style="color:rgb(5, 5, 134);" text align="center" font-family="AprovaSansBlack, sans-serif">Aumente suas
+            notas nas matérias mais difíceis!</h1>
+        </div>
+
+
+
+        <table bouder="1">
+            <thead>
+                <tr>
+                    <td>
+                        <h3>Plano de estudo incluso</h3>
+                    </td>
+                    <td>
+                        <h3>Incluso Guia de estudos</h3>
+                    </td>
+                    <td>
+                        <h3>Monitoria</h3>
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="plano-de-estudos-para-ENEM-importancia-modelos-como-montar.jpg" height="50%"
+                            width="50%"></td>
+                    <td><img src="guia de estudo.jpg" height="50%" width="50%"></td>
+                    <td><img src="monitoria.jpg" height="50%" width="50%"></td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>
+                        <p>Assista as aulas quando e onde quiser. </p>
+                        <p>Respeitando seu tempo e jeito.</p>
+                    </td>
+                    <td>
+                        <p>Nada de ficar perdido na hora de estudar</p>
+                    </td>
+                    <td>
+                        <p>Tire suas dúvidas e não passe sufoco na prova</p>
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <div class="box border-radius">
+        <h1 style="color:rgb(5, 5, 134);" text-align="center" font-family="AprovaSansBlack, sans-serif">Dificuldade em Química , Física e Matemática?
+        </h1>
+    </div>
+
+        <h1>Vem aqui que a gente te mostra como chegar lá!</h1>
+        <div class="border-box">
+        <img src="einstein.jpg" img-align="center">
+    </div>
+        <h1>Professores com ampla experiência nos vestibulares mais concorridos do Brasil.</h1>
+        <div class="box border-radius">
+        <h1 style="color:rgb(5, 5, 134);" text align="center" font-family="AprovaSansBlack, sans-serif">Conheça alguns de nossos Professores</h1>
+    </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>
+                        <h3>Camilla</h3>
+                    </td>
+                    <td>
+                        <h3>Pedro</h3>
+                    </td>
+                    <td>
+                        <h3>João</h3>
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="camilla.jpg" height="70%" width="70%"></td>
+                    <td><img src="Prof Joao.jpg" height="50%" width="70%"></td>
+                    <td><img src="pedro.jpg" height="50%" width="70%"></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td>
+                    <p>Professora de Química, formada pela USP</p>
+                </td>
+                <td>
+                    <p>Professor de Matemática formado em matemática e Economia na USP</p>
+                </td>
+                <td>
+                    <p>Professor de Física formado pela UFRJ</p>
+                </td>
+            </tfoot>
+
+        </table>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5jq_kcNYzUo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DgL6TA9on1E" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <h1>Solicite seu orçamento</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7318.053220666604!2d-46.431856!3d-23.495551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dd09800149%3A0x4f436ed77615106c!2sAvenida%20Marechal%20Tito%2C%201500%20-%20S%C3%A3o%20Miguel%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1680653751929!5m2!1spt-BR!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h1>Venha conhecer nossa unidade, atendemos online e presencial!</h1>
+
+                </td>
+            </tr>
+        </table>
+    </body>
+    <footer>
+
+        <footer>
+            <article>
+                <link rel="shortcut icon" href="manual-enem.ico (1).ico" type="image/x-icon">
+        <img src="manual enem.ico.png" height="5%" width="5%"> 
+                <p>Projeto ENEM   Copyright © 2020. Todos os Direitos Reservados    Politica de Privacidade</p>
+                </article>       
+        </footer>
+             
+
+    </footer>
+
+</html>

@@ -6,26 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos</title>
         <link rel="shortcut icon" href="manual-enem.ico (1).ico" type="image/x-icon">
-    <img src="manual enem.ico.png" height="5%" width="5%"> 
-    <nav>
-        <a href="index.html">Página Inicial</a>
-        <a href="Planos.html">Planos</a>
-        <a href="Quem Somos.html">Quem Somos</a>
-    </nav>
-    <img src="quem.somos.jpg" height="465" width="1280">
     
+    
+        
 </head>
-<body>
+<style>
+    {
+        margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+    }
+     
+
+      .container1 {
+        margin: 0;
+       
+        background-color: rgb(190, 187, 245);
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+       
+      }
+
+      p{
+        text-align: top center;
+        position: top;
+      }
+         
+      
+      img, p {
+        justify-content:center;
+          display: inline-block;
+      }
+      body {
+                
+                font-family: AprovaSansBlack, sans-serif;
+                width: 100%;
+                background-color:rgba(209, 240, 250, 0.897);
+                text-align:center;
+      }
+      html {
+                height: 500vh;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #01031b;
+
+
+
+            }
+
+            header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #01031b;
+                padding: 20px;
+                width: 97%;
+                height: min-content;
+                position: relative;
+               
+                
+            }
+
+            nav {
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .logo {
+                width: 20%;
+                cursor: pointer;
+                float: left;
+                margin: left 0;
+                justify-content: left;
+                
+            }
+
+            .menu {
+                width: 25%;
+            }
+
+            .menu nav a {
+                color: aliceblue;
+                text-decoration: none;
+                padding-right: 30px;
+                font-size: 18px;
+                width: 200px;
+                display: flex;
+
+                position: relative;
+            }
+
+            .menu nav a::after {
+                content: " ";
+                width: 0px;
+                height: 4px;
+                background-image: linear-gradient(45deg, #FF2500, #FF7100);
+                position: absolute;
+                top: 30px;
+                left: 0;
+                transition;
+                width: 0.5s;
+            }
+
+            .menu nav a:hover::after {
+                width: 30px;
+            }
+
+
+            .pesquisar input.coluna1 {
+                float: right;
+                display: inline;
+                width: 35%;
+                padding-left: 50px;
+                align: right
+            }
+
+            .pesquisar button.coluna2 {
+                cursor: pointer;
+                width: 75px;
+                display: inline;
+                float: right;
+            }
+            .box{
+                width: 100%;
+                height: 60px;
+                align-items: center;
+                margin: 0;
+                background-color: rgb(0, 255, 115);
+            }
+
+            .border-radius{
+                border-radius: 50px;
+            }
+            footer{
+                align-items:normal;
+            }
+      
+</style>
+
+
+    <header>
+        <div class="container">
+            <div class="logo"><img src="manual enem.ico.png" height="50%" width="50%"> </div>
+            <div class="menu">
+                <nav>
+                    <a href='Tela_inicial.html'>Home</a>
+                    <a href='Planos.html'>Planos</a>
+                    <a href='Quem Somos.html'>Quem.somos</a>
+                </nav>
+
+            </div>
+            <div class="pesquisar">
+                <form>
+                    <input placeholder='Pesquisar' />
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </header>
    
 
-<h1>Vários sonhos, o mesmo caminho: aprender bem e com qualidade</h1>
-<img src="time.jpg" height="40%" width="40%"><p>Desde 2010, trabalhamos para transformar vidas. Aqui, os estudantes</p>
-<p> são incentivadas a desenvolver seu potencial para expandir suas </p>
-<p>possibilidades de futuro. Acreditamos que todos podem aprender exatas.</p>
+    <body>
+        <img src="quem.somos.jpg"  height="100%" width="100%">
+        <div class="box">
+        <h1>Vários sonhos, o mesmo caminho: aprender bem e com qualidade</h1>
+    </div>
+<div class="container1">
+<img src="time.jpg" height="40%" width="40%">
 
-<img src="aulas dinamicas.jpg" height="40%" width="40%">
-<p>Aulas dinâmicas com foco na aprendizagem individual</p>
+<p>
+    Desde 2010, trabalhamos para transformar vidas. Aqui, os estudantes
+    <br>
+    são incentivadas a desenvolver seu potencial para expandir suas 
+    <br>
+     possibilidades de futuro. Acreditamos que todos podem aprender exatas.
+    <br>
+</p>
+</div>
+<div class="box">
 <h1>Um espaço seguro de aprendizagem, onde ideias e perguntas são sempre bem-vindas!</h1>
+</div>
+
+<div class="container1">
+<img src="aulas dinamicas.jpg" height="40%" width="40%">
+   
+<p>Aulas dinâmicas com foco na aprendizagem individual</p>
+</div>
+
+
 
 <footer>
     <article>
@@ -34,9 +212,4 @@
         <p>Projeto ENEM   Copyright © 2020. Todos os Direitos Reservados    Politica de Privacidade</p>
         </article>       
 </footer>
-
-
-
-
-
 </body>
